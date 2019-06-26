@@ -7,11 +7,15 @@ header{
 	background-color: #a33535;
 	padding: 5px;
 	text-align: center;
+  	border-bottom-left-radius: 120px;
+  	border-bottom-right-radius: 120px;
+}
 }
 
 h1 {
 	font-style: 90px;
 	color: white;
+	text-shadow: 0 4px 20px black;
 }
 
 header img{
@@ -20,6 +24,7 @@ header img{
 	max-width:30%;
     height: auto;
     border: 33px solid #000000;
+    box-shadow: 0 10px 20px black;
 }
 
 .content{
@@ -30,6 +35,7 @@ header img{
 
 img.big-image{
 	max-width: 100%;
+	border-radius: 20px;
 }
 
 p.caption{
@@ -53,6 +59,9 @@ footer{
 	margin-top: 30px;
 	padding: 30px 20px;
 	background-color: #702323;
+
+  	border-top-left-radius: 50px;
+  	border-top-right-radius: 50px;
 }
 
 footer ul{
